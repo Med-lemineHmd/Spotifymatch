@@ -14,7 +14,8 @@ const links = [
 ];
 
 const NavLinks = ({ handleClick }) => (
-  <div className="mt-10">
+  <>
+    <div className="mt-10 mb-56">
     {links.map((item) => (
       <NavLink
         key={item.name}
@@ -26,8 +27,9 @@ const NavLinks = ({ handleClick }) => (
         {item.name}
       </NavLink>
     ))}
-    <Footer />
   </div>
+    <Footer />
+  </>
 );
 
 const Sidebar = () => {

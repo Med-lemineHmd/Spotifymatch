@@ -4,7 +4,7 @@ import { FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="text-slate-50 pt-60 text-center">
+    <footer className="text-slate-50 text-center">
         <div>
             <p>@2022 Copyright</p>
         </div>
