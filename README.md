@@ -4,7 +4,7 @@ Spotifymatch, Built with vite + React, Tailwind css & RapidAPI
   <br />
   
 
-  <a href="https://moshareme.netlify.app"><strong>➥ Live Demo</strong></a>
+  <a href="https://spotifymatch.netlify.app"><strong>➥ Live Demo</strong></a>
 
 </div>
 
