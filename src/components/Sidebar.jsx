@@ -4,6 +4,7 @@ import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, Hi
 import { RiCloseLine } from 'react-icons/ri';
 
 import { brand } from '../assets';
+import { Footer } from '../components';
 
 const links = [
   { name: 'Discover', to: '/', icon: HiOutlineHome },
@@ -25,6 +26,7 @@ const NavLinks = ({ handleClick }) => (
         {item.name}
       </NavLink>
     ))}
+    <Footer />
   </div>
 );
 
